@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); */
+
+.home{
+  position: relative;
+  text-align: center;
+  background: url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.home .overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.5;
+}
+.home .text{
+  color: #fff;
+  padding: 140px 10px;
+}
+.home .text .logo{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.template{
+  color:#fff;
+  padding-top: 20px;
+  background: #001D2D;
+  border-top-right-radius:200px;
+  border-bottom-left-radius: 200px;
+}
+
+.template .row{
+  padding:40px;
+}
+
+.template .fa{
+  font-size: 25px;
+  padding: 15px;
+  background: #B29060;
+  border-radius: 50%;
+}
+
+.template .line{
+  width: 50px;
+  height: 2px;
+  background: #B29060;
+}
+
+.box-btn{
+  padding: 15px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 35px 35px 35px 35px;
+  background: #B29060;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.box-btn:hover {
+  background: #001D2D;
+}
+
+.icone a{
+  color:#fff;
+  font-size: 18px;
+  padding: 14px;
+  background: gray;
+  border-radius: 50%;
+}
+.icone a .fa-facebook{
+  padding:14px 4px;
+}
